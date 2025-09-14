@@ -1,27 +1,39 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
+  std::ios::sync_with_stdio(false);
+  std::cin.tie(nullptr);
 
-  cout << "Number Guessing (1-100). Type q to quit.\n";
-  srand((unsigned)time(nullptr));
-  int target = rand() % 100 + 1;
+  std::cout << "Number Guessing (1-100). Type q to quit.\n";
+  std::srand((unsigned)std::time(nullptr));
+  const int target = std::rand() % 100 + 1;
 
-  string s;
+  std::string s;
   while (true) {
-    cout << "> ";
-    if (!getline(cin, s)) break;
-    if (s=="q" || s=="quit" || s=="exit") { cout << "bye!\n"; break; }
+    std::cout << "> " << std::flush;        // ← ここが重要（都度フラッシュ）
+    if (!std::getline(std::cin, s)) break;
+
+    if (s == "q" || s == "quit" || s == "exit") {
+      std::cout << "bye!\n";
+      break;
+    }
 
     try {
-      int x = stoi(s);
-      if (x < 1 || x > 100) { cout << "type 1..100\n"; continue; }
-      if (x == target) { cout << "correct!\n"; break; }
-      cout << (x < target ? "higher\n" : "lower\n");
+      int x = std::stoi(s);
+      if (x < 1 || x > 100) {
+        std::cout << "type 1..100\n";
+        continue;
+      }
+      if (x == target) {
+        std::cout << "correct!\n";
+        break;
+      }
+      std::cout << (x < target ? "higher\n" : "lower\n");
     } catch (...) {
-      cout << "please type a number or q\n";
+      std::cout << "please type a number or q\n";
     }
   }
   return 0;
