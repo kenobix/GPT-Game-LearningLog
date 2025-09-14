@@ -1,4 +1,3 @@
-cat > 02-lv1-number-guessing_cpp/README.md <<'MD'
 # number-guessing  (02-lv1-number-guessing_cpp)
 
 ## メタ情報
@@ -30,4 +29,3 @@ cat > 02-lv1-number-guessing_cpp/README.md <<'MD'
 
 ## 参考
 - なし
-MD
