@@ -22,3 +22,8 @@ bin/
 Thumbs.db
 .vscode/
 .idea/
+# nested build outputs
+**/bin/
+**/*.o
+**/*.obj
+**/*.exe
