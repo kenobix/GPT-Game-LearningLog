@@ -14,3 +14,13 @@ jobs:
             echo "Smoke: $f"
             printf "rock\nq\n" | python3 "$f" >/dev/null
           done
+      - name: Build & run C++ projects (non-interactive)
+        run: |
+          set -e
+          for f in $(git ls-files "*/src/main.cpp"); do
+            echo "Build: $f"
+            out="/tmp/$(basename $(dirname $(dirname "$f")))"
+            g++ -std=c++17 -O2 -Wall -Wextra "$f" -o "$out"
+            echo "Smoke: $out"
+            printf "50\nq\n" | "$out" >/dev/null
+          done
