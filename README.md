@@ -40,6 +40,7 @@ A personal learning log of programming and algorithms through game development w
 |----|-------------------------------------------|------|-------|------------------------|------------------|-------|
 | 01 | **rock-paper-scissors** (`01-lv1-..._py`) | py   | Lv1   | ✅ Done (run verified) | 2025-09-13       | `python3 src/main.py` |
 | 02 | **number-guessing** (`02-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-14       | `g++ ... -o bin/number-guessing && ./bin/number-guessing` |
+| 03 | **math-quiz** (`03-lv1-..._py`)           | py   | Lv1   | ✅ Done (run verified) | 2025-09-15       | `python3 src/main.py` |
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
 
@@ -91,7 +92,6 @@ A personal learning log of programming and algorithms through game development w
 
 ## Roadmap (Lv1 フォーカス)
 
-* 03: **math-quiz**（Python, Lv1）— 四則演算の出題と採点（分岐/ループ/入出力）
 * 04: **coin-flip**（Rust, Lv1）— 乱数と入力、勝率表示（基礎I/O）
 * 05: **dice-roll-stats**（C++, Lv1）— サイコロを複数回振って頻度集計（ループ）
 * 06: **mad-libs**（Python, Lv1）— 文字列入力とテンプレ埋め（文字列操作）
