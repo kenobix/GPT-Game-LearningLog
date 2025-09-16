@@ -36,11 +36,15 @@ A personal learning log of programming and algorithms through game development w
 
 ## Project Index & Status
 
+## Project Index & Status
+
 | #  | Project (Dir)                              | Lang | Level | Status                 | Verified (Local) | Notes |
 |----|-------------------------------------------|------|-------|------------------------|------------------|-------|
 | 01 | **rock-paper-scissors** (`01-lv1-..._py`) | py   | Lv1   | ✅ Done (run verified) | 2025-09-13       | `python3 src/main.py` |
 | 02 | **number-guessing** (`02-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-14       | `g++ ... -o bin/number-guessing && ./bin/number-guessing` |
 | 03 | **math-quiz** (`03-lv1-..._py`)           | py   | Lv1   | ✅ Done (run verified) | 2025-09-15       | `python3 src/main.py` |
+| 04 | **coin-flip** (`04-lv1-..._rs`)           | rs   | Lv1   | ✅ Done (run verified) | 2025-09-16       | `rustc src/main.rs -O -o bin/coin-flip && ./bin/coin-flip` |
+
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
 
