@@ -36,14 +36,13 @@ A personal learning log of programming and algorithms through game development w
 
 ## Project Index & Status
 
-## Project Index & Status
-
 | #  | Project (Dir)                              | Lang | Level | Status                 | Verified (Local) | Notes |
 |----|-------------------------------------------|------|-------|------------------------|------------------|-------|
 | 01 | **rock-paper-scissors** (`01-lv1-..._py`) | py   | Lv1   | ✅ Done (run verified) | 2025-09-13       | `python3 src/main.py` |
 | 02 | **number-guessing** (`02-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-14       | `g++ ... -o bin/number-guessing && ./bin/number-guessing` |
 | 03 | **math-quiz** (`03-lv1-..._py`)           | py   | Lv1   | ✅ Done (run verified) | 2025-09-15       | `python3 src/main.py` |
 | 04 | **coin-flip** (`04-lv1-..._rs`)           | rs   | Lv1   | ✅ Done (run verified) | 2025-09-16       | `rustc src/main.rs -O -o bin/coin-flip && ./bin/coin-flip` |
+| 05 | **dice-roll-stats** (`05-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-17       | `g++ ... -o bin/dice-roll-stats && ./bin/dice-roll-stats` |
 
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
@@ -94,12 +93,13 @@ A personal learning log of programming and algorithms through game development w
     └─ workflows/ci.yml
 ```
 
-## Roadmap (Lv1 フォーカス)
+## Roadmap (Lv1 継続)
 
-* 04: **coin-flip**（Rust, Lv1）— 乱数と入力、勝率表示（基礎I/O）
-* 05: **dice-roll-stats**（C++, Lv1）— サイコロを複数回振って頻度集計（ループ）
-* 06: **mad-libs**（Python, Lv1）— 文字列入力とテンプレ埋め（文字列操作）
-* 07: **prime-quiz**（Rust, Lv1）— 素数かどうかを当てるクイズ（条件分岐）
+- 06: **even-odd**（Go, Lv1）— 1〜100の乱数が偶数/奇数か当てる（スコア付）
+- 07: **word-scramble**（Node.js, Lv1）— 3〜5文字の単語をシャッフル表示して当てる
+- 08: **reaction-timer**（Java, Lv1）— 合図後にEnterまでの反応時間を測定
+- 09: **anagram-duel**（C#, Lv1）— 2語の並べ替え判定（同一文字集合か）
+- 10: **number-base-quiz**（Ruby, Lv1）— 10進↔2/16進の変換クイズ
 
 ## License
 
