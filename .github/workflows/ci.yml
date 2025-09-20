@@ -24,6 +24,7 @@ jobs:
             echo "Smoke: $out"
             printf "50\nq\n" | "$out" >/dev/null
           done
+
       - name: Install Rust (stable)
         run: |
           curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
@@ -38,7 +39,8 @@ jobs:
             rustc "$f" -O -o "$out"
             printf "h\nq\n" | "$out" >/dev/null
           done
-          - uses: actions/setup-go@v5
+
+      - uses: actions/setup-go@v5
         with:
           go-version: "1.x"
 
@@ -50,4 +52,23 @@ jobs:
             out="/tmp/$(basename $(dirname $(dirname "$f")))"
             go build -o "$out" "$f"
             printf "e\nq\n" | "$out" >/dev/null
+          done
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Build & run Node/TS projects (non-interactive)
+        run: |
+          set -e
+          for f in $(git ls-files "*/src/main.ts"); do
+            dir="$(dirname "$(dirname "$f")")"
+            echo "Build: $dir"
+            if [ -f "$dir/package-lock.json" ]; then
+              (cd "$dir" && npm ci)
+            else
+              (cd "$dir" && npm i --silent)
+            fi
+            (cd "$dir" && npm run build)
+            printf "q\n" | node "$dir/dist/main.js" >/dev/null
           done
