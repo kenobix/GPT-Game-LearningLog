@@ -38,3 +38,16 @@ jobs:
             rustc "$f" -O -o "$out"
             printf "h\nq\n" | "$out" >/dev/null
           done
+          - uses: actions/setup-go@v5
+        with:
+          go-version: "1.x"
+
+      - name: Build & run Go projects (non-interactive)
+        run: |
+          set -e
+          for f in $(git ls-files "*/src/main.go"); do
+            echo "Build: $f"
+            out="/tmp/$(basename $(dirname $(dirname "$f")))"
+            go build -o "$out" "$f"
+            printf "e\nq\n" | "$out" >/dev/null
+          done
