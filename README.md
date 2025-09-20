@@ -43,6 +43,7 @@ A personal learning log of programming and algorithms through game development w
 | 03 | **math-quiz** (`03-lv1-..._py`)           | py   | Lv1   | ✅ Done (run verified) | 2025-09-15       | `python3 src/main.py` |
 | 04 | **coin-flip** (`04-lv1-..._rs`)           | rs   | Lv1   | ✅ Done (run verified) | 2025-09-16       | `rustc src/main.rs -O -o bin/coin-flip && ./bin/coin-flip` |
 | 05 | **dice-roll-stats** (`05-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-17       | `g++ ... -o bin/dice-roll-stats && ./bin/dice-roll-stats` |
+| 06 | **even-odd** (`06-lv1-..._go`)           | go   | Lv1   | ✅ Done (run verified) | 2025-09-17       | `go run src/main.go` |
 
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
