@@ -1,0 +1,13 @@
+{
+    "name": "07-lv1-word-scramble_ts",
+    "private": true,
+    "version": "0.1.0",
+    "scripts": {
+      "build": "tsc -p .",
+      "start": "node dist/main.js"
+    },
+    "devDependencies": {
+      "@types/node": "^20.0.0",
+      "typescript": "^5.0.0"
+    }
+  }  
