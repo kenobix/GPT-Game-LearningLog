@@ -1,7 +1,7 @@
 # dice-roll-stats  (05-lv1-dice-roll-stats_cpp)
 
 ## メタ情報
-- **Date**: 2025-09-16
+- **Date**: 2025-09-17
 - **Language**: cpp
 - **Level**: Lv1
 - **Environment**: WSL Ubuntu 22.04 / Windows 11

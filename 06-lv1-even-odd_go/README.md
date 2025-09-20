@@ -1,7 +1,7 @@
 # even-odd  (06-lv1-even-odd_go)
 
 ## メタ情報
-- **Date**: 2025-09-17
+- **Date**: 2025-09-18
 - **Language**: go
 - **Level**: Lv1
 - **Environment**: WSL Ubuntu 22.04 / Windows 11
