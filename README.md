@@ -44,6 +44,8 @@ A personal learning log of programming and algorithms through game development w
 | 04 | **coin-flip** (`04-lv1-..._rs`)           | rs   | Lv1   | ✅ Done (run verified) | 2025-09-16       | `rustc src/main.rs -O -o bin/coin-flip && ./bin/coin-flip` |
 | 05 | **dice-roll-stats** (`05-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-17       | `g++ ... -o bin/dice-roll-stats && ./bin/dice-roll-stats` |
 | 06 | **even-odd** (`06-lv1-..._go`)           | go   | Lv1   | ✅ Done (run verified) | 2025-09-18       | `go run src/main.go` |
+| 07 | **word-scramble** (`07-lv1-..._ts`) | ts | Lv1 | ✅ Done (run verified) | 2025-09-19 | `npm ci && npm run build && node dist/main.js` |
+nano README.md
 
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
