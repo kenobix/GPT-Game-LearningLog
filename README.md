@@ -45,7 +45,7 @@ A personal learning log of programming and algorithms through game development w
 | 05 | **dice-roll-stats** (`05-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-17       | `g++ ... -o bin/dice-roll-stats && ./bin/dice-roll-stats` |
 | 06 | **even-odd** (`06-lv1-..._go`)           | go   | Lv1   | ✅ Done (run verified) | 2025-09-18       | `go run src/main.go` |
 | 07 | **word-scramble** (`07-lv1-..._ts`) | ts | Lv1 | ✅ Done (run verified) | 2025-09-19 | `npm ci && npm run build && node dist/main.js` |
-nano README.md
+| 08 | **reaction-timer** (`08-lv1-..._java`)    | java | Lv1   | ✅ Done (run verified) | 2025-09-19       | `javac -encoding UTF-8 -d bin src/Main.java && java -cp bin Main` |
 
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
@@ -98,11 +98,13 @@ nano README.md
 
 ## Roadmap (Lv1 継続)
 
-- 06: **even-odd**（Go, Lv1）— 1〜100の乱数が偶数/奇数か当てる（スコア付）
-- 07: **word-scramble**（Node.js, Lv1）— 3〜5文字の単語をシャッフル表示して当てる
-- 08: **reaction-timer**（Java, Lv1）— 合図後にEnterまでの反応時間を測定
 - 09: **anagram-duel**（C#, Lv1）— 2語の並べ替え判定（同一文字集合か）
 - 10: **number-base-quiz**（Ruby, Lv1）— 10進↔2/16進の変換クイズ
+- 11: palindrome-hunt（Kotlin, Lv1）— **回文判定**（両端ポインタ比較）
+- 12: caesar-cipher-quiz（PHP, Lv1）— **カエサル暗号**（文字コードの巡回/剰余）
+- 13: prime-sieve（Lua, Lv1）— **エラトステネスの篩**で素数リスト生成クイズ
+- 14: gcd-lcm-quiz（Dart, Lv1）— **ユークリッドの互除法**でGCD/LCMクイズ
+- 15: roman-numeral（Haskell, Lv1）— **ローマ数字↔10進**（貪欲法マッピング）
 
 ## License
 
