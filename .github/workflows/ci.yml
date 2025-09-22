@@ -105,3 +105,15 @@ jobs:
             dir=$(dirname "$proj")
             printf "q\n" | dotnet run --project "$dir" -c Release >/dev/null
           done
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+      - name: Run Ruby projects (non-interactive)
+        run: |
+          set -e
+          for f in $(git ls-files "*/src/main.rb"); do
+            echo "Smoke: $f"
+            ruby "$f" <<< $'q\n' >/dev/null
+          done
+          echo "Ruby smoke passed"
