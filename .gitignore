@@ -30,3 +30,6 @@ Thumbs.db
 
 # .NET build outputs
 **/obj/
+
+# Ignore local mailmap
+mailmap
