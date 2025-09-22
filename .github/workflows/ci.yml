@@ -72,3 +72,21 @@ jobs:
             (cd "$dir" && npm run build)
             printf "q\n" | node "$dir/dist/main.js" >/dev/null
           done
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "21"
+
+      - name: Build & run Java projects (non-interactive)
+        run: |
+          set -e
+          # すべての Java プロジェクトを検出
+          for srcdir in $(git ls-files "*/src/Main.java" | xargs -n1 dirname | sort -u); do
+            proj="$(dirname "$srcdir")"
+            echo "Build: $proj"
+            mkdir -p "$proj/bin"
+            javac -encoding UTF-8 -d "$proj/bin" "$srcdir/Main.java"
+            # テストモード（遅延0ms）で2回のEnterを送って1ラウンド実行
+            (cd "$proj" && printf "\n\n" | RT_TEST=1 java -cp bin Main >/dev/null)
+          done
