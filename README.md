@@ -45,7 +45,7 @@ A personal learning log of programming and algorithms through game development w
 | 05 | **dice-roll-stats** (`05-lv1-..._cpp`)    | cpp  | Lv1   | ✅ Done (run verified) | 2025-09-17       | `g++ ... -o bin/dice-roll-stats && ./bin/dice-roll-stats` |
 | 06 | **even-odd** (`06-lv1-..._go`)           | go   | Lv1   | ✅ Done (run verified) | 2025-09-18       | `go run src/main.go` |
 | 07 | **word-scramble** (`07-lv1-..._ts`) | ts | Lv1 | ✅ Done (run verified) | 2025-09-19 | `npm ci && npm run build && node dist/main.js` |
-| 08 | **reaction-timer** (`08-lv1-..._java`)    | java | Lv1   | ✅ Done (run verified) | 2025-09-19       | `javac -encoding UTF-8 -d bin src/Main.java && java -cp bin Main` |
+| 08 | **reaction-timer** (`08-lv1-..._java`)    | java | Lv1   | ✅ Done (run verified) | 2025-09-20       | `javac -encoding UTF-8 -d bin src/Main.java && java -cp bin Main` |
 
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。

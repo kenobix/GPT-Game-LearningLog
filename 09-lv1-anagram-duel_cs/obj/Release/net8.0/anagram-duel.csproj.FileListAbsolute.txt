@@ -1,0 +1,15 @@
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/bin/Release/net8.0/anagram-duel
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/bin/Release/net8.0/anagram-duel.deps.json
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/bin/Release/net8.0/anagram-duel.runtimeconfig.json
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/bin/Release/net8.0/anagram-duel.dll
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/bin/Release/net8.0/anagram-duel.pdb
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.GeneratedMSBuildEditorConfig.editorconfig
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.AssemblyInfoInputs.cache
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.AssemblyInfo.cs
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.csproj.CoreCompileInputs.cache
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.sourcelink.json
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.dll
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/refint/anagram-duel.dll
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.pdb
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/anagram-duel.genruntimeconfig.cache
+/home/kenshin/github/GPT-Game-LearningLog/09-lv1-anagram-duel_cs/obj/Release/net8.0/ref/anagram-duel.dll
