@@ -27,3 +27,6 @@ Thumbs.db
 **/*.o
 **/*.obj
 **/*.exe
+
+# .NET build outputs
+**/obj/

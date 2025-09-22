@@ -46,6 +46,7 @@ A personal learning log of programming and algorithms through game development w
 | 06 | **even-odd** (`06-lv1-..._go`)           | go   | Lv1   | ✅ Done (run verified) | 2025-09-18       | `go run src/main.go` |
 | 07 | **word-scramble** (`07-lv1-..._ts`) | ts | Lv1 | ✅ Done (run verified) | 2025-09-19 | `npm ci && npm run build && node dist/main.js` |
 | 08 | **reaction-timer** (`08-lv1-..._java`)    | java | Lv1   | ✅ Done (run verified) | 2025-09-20       | `javac -encoding UTF-8 -d bin src/Main.java && java -cp bin Main` |
+| 09 | **anagram-duel** (`09-lv1-..._cs`)       | csharp | Lv1 | ✅ Done (run verified) | 2025-09-21 | `dotnet run --project . -c Release` |
 
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
