@@ -1,7 +1,7 @@
 # reaction-timer  (08-lv1-reaction-timer_java)
 
 ## メタ情報
-- **Date**: 2025-09-19
+- **Date**: 2025-09-20
 - **Language**: java
 - **Level**: Lv1
 - **Environment**: WSL Ubuntu 22.04 / Windows 11
