@@ -47,6 +47,7 @@ A personal learning log of programming and algorithms through game development w
 | 07 | **word-scramble** (`07-lv1-..._ts`) | ts | Lv1 | ✅ Done (run verified) | 2025-09-19 | `npm ci && npm run build && node dist/main.js` |
 | 08 | **reaction-timer** (`08-lv1-..._java`)    | java | Lv1   | ✅ Done (run verified) | 2025-09-20       | `javac -encoding UTF-8 -d bin src/Main.java && java -cp bin Main` |
 | 09 | **anagram-duel** (`09-lv1-..._cs`)       | csharp | Lv1 | ✅ Done (run verified) | 2025-09-21 | `dotnet run --project . -c Release` |
+| 10 | number-base-quiz (`10-lv1-..._rb`) | ruby | Lv1 | ✅ Done (run verified) | 2025-09-22 | `ruby src/main.rb` |
 
 
 > 詳細な実行手順や学習メモは各プロジェクト配下の `README.md` を参照。
@@ -99,8 +100,6 @@ A personal learning log of programming and algorithms through game development w
 
 ## Roadmap (Lv1 継続)
 
-- 09: **anagram-duel**（C#, Lv1）— 2語の並べ替え判定（同一文字集合か）
-- 10: **number-base-quiz**（Ruby, Lv1）— 10進↔2/16進の変換クイズ
 - 11: palindrome-hunt（Kotlin, Lv1）— **回文判定**（両端ポインタ比較）
 - 12: caesar-cipher-quiz（PHP, Lv1）— **カエサル暗号**（文字コードの巡回/剰余）
 - 13: prime-sieve（Lua, Lv1）— **エラトステネスの篩**で素数リスト生成クイズ
